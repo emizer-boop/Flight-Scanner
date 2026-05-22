@@ -1,0 +1,7 @@
+{
+  "origins": ["JFK", "LGA", "EWR"],
+  "trip_lengths_days": [3, 5, 7],
+  "look_ahead_days": [14, 30, 60, 90],
+  "price_drop_pct": 10.0,
+  "weekend_deal_usd": 400
+}
