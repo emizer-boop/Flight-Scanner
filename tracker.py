@@ -40,7 +40,6 @@ load_dotenv(ROOT / ".env")
 RAPIDAPI_KEY = os.environ.get("RAPIDAPI_KEY", "").strip()
 RAPIDAPI_HOST = "sky-scrapper.p.rapidapi.com"
 BASE = f"https://{RAPIDAPI_HOST}"
-
 DB_PATH = ROOT / "history.db"
 REPORT_DIR = ROOT / "reports"
 REPORT_DIR.mkdir(exist_ok=True)
