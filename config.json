@@ -9,3 +9,11 @@
   "price_drop_pct": 10.0,
   "weekend_deal_usd": 400
 }
+"explore": {
+  "enabled": true,
+  "origins": ["JFK", "LGA", "EWR"],
+  "months": ["2026-07", "2026-08", "2026-09", "2026-10"],
+  "max_price_usd": 600,
+  "trip_lengths": ["weekend", "wed_sun", "week"],
+  "top_n": 10
+}
